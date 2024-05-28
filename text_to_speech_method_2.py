@@ -7,7 +7,7 @@ myText=  input("Enter the text\n")
 language ="en"
 
 # engine = pyttsx3.init()
-voices = engine.getProperty('voices')
+# voices = engine.getProperty('voices')
 # engine.setProperty('voice', voices[1].id)
 engine.say(myText)
 engine.runAndWait()
